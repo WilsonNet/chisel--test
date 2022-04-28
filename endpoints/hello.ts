@@ -5,7 +5,7 @@ type Handler = (req: Request, res: Response) => Response | Promise<Response>
 
 const handleGet: Handler = async req => {
 // hello
-  return responseFromJson({hello: "world giwthub org new chisel1!"})
+  return responseFromJson({hello: "world giwthub org new chisel21!"})
 }
 
 const handlers: Record<string, Handler> = {
